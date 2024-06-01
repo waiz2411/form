@@ -1,0 +1,9 @@
+.left-side{
+    color: #FFFFFF;
+    height: 100%;
+    width: 30%;
+    background-color: #22AB00;
+}
+.left-side p {
+    font-size: 15px;
+}
