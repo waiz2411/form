@@ -24,6 +24,7 @@ var box7criteria = false ;
 var box8criteria = false ;
 
 var allboxes = true
+var button1 = document.getElementById('button1')
 
 var selectBox1 = document.getElementById('step1-select-box-1');
 var selectBox2 = document.getElementById('step1-select-box-2');
@@ -36,6 +37,8 @@ var selectBox8 = document.getElementById('step1-select-box-8');
 
 var goToStep2 = document.getElementById('go-to-Step2');
 
+var error1 = document.getElementById('error1')
+
 
 var row1 = document.getElementById('row-1');
 // Assign the handleClick function to the onclick event of the button
@@ -46,17 +49,19 @@ box1.onclick = () => {
         box1.classList.remove('boxes');
         selectBox1.classList.add('boxes-after-hover');
         selectBox1.classList.remove('boxes-before-hover');
-        error1.classList.add('d-none')
-        error1.classList.remove('d-flex')
+        error1.classList.add('d-none');
+        error1.classList.remove('d-flex');
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box1criteria = true;
     }else{
-        box1.classList.add('boxes');
         box1.classList.remove('selected-box');
+        box1.classList.add('boxes');
         selectBox1.classList.remove('boxes-after-hover');
         selectBox1.classList.add('boxes-before-hover');
         box1criteria = false;
     }
-    
+
 }
 box2.onclick = ()  =>{
     if (!box2criteria){
@@ -66,6 +71,8 @@ box2.onclick = ()  =>{
         selectBox2.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box2criteria = true;
     }else{
         box2.classList.add('boxes');
@@ -84,6 +91,8 @@ box3.onclick = ()  =>{
         selectBox3.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box3criteria = true;
     }else{
         box3.classList.add('boxes');
@@ -101,6 +110,8 @@ box4.onclick = ()  =>{
         selectBox4.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box4criteria = true;
     }else{
         box4.classList.add('boxes');
@@ -120,6 +131,8 @@ box5.onclick = ()  =>{
         selectBox5.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box5criteria = true;
     }else{
         box5.classList.add('boxes');
@@ -137,6 +150,8 @@ box6.onclick = ()  =>{
         selectBox6.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box6criteria = true;
     }else{
         box6.classList.add('boxes');
@@ -155,6 +170,8 @@ box7.onclick = ()  =>{
         selectBox7.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box7criteria = true;
     }else{
         box7.classList.add('boxes');
@@ -167,12 +184,14 @@ box7.onclick = ()  =>{
 }
 box8.onclick = ()  =>{
     if (!box8criteria){
-        box8.classList.add('selected-box');
         box8.classList.remove('boxes');
+        box8.classList.add('selected-box');
         selectBox8.classList.add('boxes-after-hover');
         selectBox8.classList.remove('boxes-before-hover');
         error1.classList.add('d-none')
         error1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
         box8criteria = true;
     }else{
         box8.classList.add('boxes');
@@ -184,28 +203,27 @@ box8.onclick = ()  =>{
 
 }
 
-var error1 = document.getElementById('error1')
 
 
-if (!box1criteria && !box2criteria && !box3criteria && !box4criteria && !box5criteria && !box6criteria && !box7criteria && !box8criteria) {
-    allboxes = false;
-}
+// if (!box1criteria && !box2criteria && !box3criteria && !box4criteria && !box5criteria && !box6criteria && !box7criteria && !box8criteria) {
+//     allboxes = false;
+// }
 
 
 goToStep2.onclick = () =>{
     if(!box1criteria && !box2criteria && !box3criteria && !box4criteria && !box5criteria && !box6criteria && !box7criteria && !box8criteria){
         error1.classList.remove('d-none')
         error1.classList.add('d-flex')
-        row1.classList.remove('mt-5')
-        row1.classList.add('mt-3')
+        button1.classList.remove('button-after')
+        button1.classList.add('button-before')
     }
     else{
-        Step1.classList.remove('d-flex')
+        button1.classList.add('button-after')
+        button1.classList.remove('button-before')
+        Step1.classList.remove('display')
         Step1.classList.add('d-none')
         Step2.classList.remove('d-none')
-        Step2.classList.add('d-flex')
-        row1.classList.add('mt-5')
-        row1.classList.remove('mt-3')
+        Step2.classList.add('display')
     }
 
 }
@@ -237,6 +255,7 @@ var Step2box6criteria = false ;
 var error2 = document.getElementById('error')
 
 
+var button2 = document.getElementById('button2')
 
 
 
@@ -246,20 +265,20 @@ Step2box1.onclick = () => {
     if (!Step2box1criteria){
 
         Step2box1criteria = true;
-        Step2.classList.remove('d-flex')
+        Step2.classList.remove('display')
         Step2.classList.add('d-none')
         Step3.classList.remove('d-none')
-        Step3.classList.add('d-flex')
+        Step3.classList.add('display')
     }
     
 }
 Step2box2.onclick = ()  =>{
     if (!Step2box2criteria){
         Step2box2criteria = true;
-        Step2.classList.remove('d-flex')
+        Step2.classList.remove('display')
         Step2.classList.add('d-none')
         Step3.classList.remove('d-none')
-        Step3.classList.add('d-flex')
+        Step3.classList.add('display')
 
     }
 
@@ -268,10 +287,10 @@ Step2box3.onclick = ()  =>{
     if (!Step2box3criteria){
 
         Step2box3criteria = true;
-        Step2.classList.remove('d-flex')
+        Step2.classList.remove('display')
         Step2.classList.add('d-none')
         Step3.classList.remove('d-none')
-        Step3.classList.add('d-flex')
+        Step3.classList.add('display')
 
     }
 }
@@ -279,10 +298,10 @@ Step2box4.onclick = ()  =>{
     if (!Step2box4criteria){
 
         Step2box4criteria = true;
-        Step2.classList.remove('d-flex')
+        Step2.classList.remove('display')
         Step2.classList.add('d-none')
         Step3.classList.remove('d-none')
-        Step3.classList.add('d-flex')
+        Step3.classList.add('display')
 
     }
 
@@ -291,10 +310,10 @@ Step2box5.onclick = ()  =>{
     if (!Step2box5criteria){
 
         Step2box5criteria = true;
-        Step2.classList.remove('d-flex')
+        Step2.classList.remove('display')
         Step2.classList.add('d-none')
         Step3.classList.remove('d-none')
-        Step3.classList.add('d-flex')
+        Step3.classList.add('display')
 
     }
 }
@@ -311,8 +330,8 @@ backToStep1.onclick = () =>{
     error1.classList.add('d-none')
     error1.classList.remove('d-flex')
     Step1.classList.remove('d-none')
-    Step1.classList.add('d-flex')
-    Step2.classList.remove('d-flex')
+    Step1.classList.add('display')
+    Step2.classList.remove('display')
     Step2.classList.add('d-none')
 
 }
@@ -325,8 +344,10 @@ var goToStep3 = document.getElementById('go-to-Step3');
 goToStep3.onclick = () =>{
     error2.classList.remove('d-none')
     error2.classList.add('d-flex')
-    step2row1.classList.remove('mt-5')
-    step2row1.classList.add('mt-2')
+    // step2row1.classList.remove('mt-5')
+    // step2row1.classList.add('mt-2')
+    button2.classList.remove('button-after')
+    button2.classList.add('button-before')
 }
 
 
@@ -336,6 +357,9 @@ goToStep3.onclick = () =>{
 
 // back to step2
 
+
+var error3 = document.getElementById('error3')
+var button3 = document.getElementById('button3')
 var backToStep2 = document.getElementById('back-to-page2')
 
 backToStep2.onclick = () =>{
@@ -343,8 +367,8 @@ backToStep2.onclick = () =>{
     error2.classList.remove('d-flex')
 
     Step2.classList.remove('d-none')
-    Step2.classList.add('d-flex')
-    Step3.classList.remove('d-flex')
+    Step2.classList.add('display')
+    Step3.classList.remove('display')
     Step3.classList.add('d-none')
 
     
@@ -391,20 +415,20 @@ Step3box1.onclick = () => {
     if (!Step3box1criteria){
 
         Step3box1criteria = true;
-        Step3.classList.remove('d-flex')
+        Step3.classList.remove('display')
         Step3.classList.add('d-none')
         Step4.classList.remove('d-none')
-        Step4.classList.add('d-flex')
+        Step4.classList.add('display')
     }
     
 }
 Step3box2.onclick = ()  =>{
     if (!Step3box2criteria){
         Step3box2criteria = true;
-        Step3.classList.remove('d-flex')
+        Step3.classList.remove('display')
         Step3.classList.add('d-none')
         Step4.classList.remove('d-none')
-        Step4.classList.add('d-flex')
+        Step4.classList.add('display')
 
     }
 
@@ -413,20 +437,21 @@ Step3box3.onclick = ()  =>{
     if (!Step3box3criteria){
 
         Step3box3criteria = true;
-        Step3.classList.remove('d-flex')
+        Step3.classList.remove('display')
         Step3.classList.add('d-none')
         Step4.classList.remove('d-none')
-        Step4.classList.add('d-flex')
+        Step4.classList.add('display')
 
     }
 }
-var error3 = document.getElementById('error2')
 
 var goToStep4 = document.getElementById('go-to-Step4');
 
 goToStep4.onclick = () =>{
     error3.classList.remove('d-none')
     error3.classList.add('d-flex')
+    button3.classList.remove('button3-after')
+    button3.classList.add('button3-before')
 }
 
 
@@ -462,20 +487,20 @@ Step4box1.onclick = () => {
     if (!Step4box1criteria){
 
         Step4box1criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
     }
     
 }
 Step4box2.onclick = ()  =>{
     if (!Step4box2criteria){
         Step4box2criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 
@@ -484,10 +509,10 @@ Step4box3.onclick = ()  =>{
     if (!Step4box3criteria){
 
         Step4box3criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
@@ -495,10 +520,10 @@ Step4box4.onclick = ()  =>{
     if (!Step4box4criteria){
 
         Step4box5criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
@@ -506,10 +531,10 @@ Step4box5.onclick = ()  =>{
     if (!Step4box5criteria){
 
         Step4box5criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
@@ -517,10 +542,10 @@ Step4box6.onclick = ()  =>{
     if (!Step4box6criteria){
 
         Step4box6criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
@@ -528,10 +553,10 @@ Step4box7.onclick = ()  =>{
     if (!Step4box7criteria){
 
         Step4box7criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
@@ -539,21 +564,24 @@ Step4box8.onclick = ()  =>{
     if (!Step4box8criteria){
 
         Step4box8criteria = true;
-        Step4.classList.remove('d-flex')
+        Step4.classList.remove('display')
         Step4.classList.add('d-none')
         Step5.classList.remove('d-none')
-        Step5.classList.add('d-flex')
+        Step5.classList.add('display')
 
     }
 }
 
 
-var error4 = document.getElementById('error3')
+var error4 = document.getElementById('error4')
+var button4 = document.getElementById('button4')
 var goToStep5 = document.getElementById('go-to-Step5');
 
 goToStep5.onclick = () =>{
     error4.classList.remove('d-none')
     error4.classList.add('d-flex')
+    button4.classList.remove('button-after')
+    button4.classList.add('button-before')
 }
 
 var backToStep3 = document.getElementById('back-to-page3')
@@ -562,9 +590,11 @@ backToStep3.onclick = () =>{
 
 
     Step3.classList.remove('d-none')
-    Step3.classList.add('d-flex')
-    Step4.classList.remove('d-flex')
+    Step3.classList.add('display')
+    Step4.classList.remove('display')
     Step4.classList.add('d-none')
+    error3.classList.add('d-none')
+    error3.classList.remove('d-flex')
 
     
 
@@ -584,7 +614,8 @@ backToStep3.onclick = () =>{
 var houseNum = document.getElementById('house-number');
 var CityName = document.getElementById('City');
 var PostCode = document.getElementById('Postcode');
-var error5 = document.getElementById('error5');
+var error5 = document.getElementById('error5')
+var button5 = document.getElementById('button5')
 var goToStep6 = document.getElementById('go-to-Step6');
 var Step5 = document.getElementById('Step5');
 var Step6 = document.getElementById('Step6');
@@ -600,11 +631,17 @@ goToStep6.onclick = (event) => {
     if (!checkCityName || !checkHouseNum || !checkPostCode) {
         error5.classList.remove('d-none');
         error5.classList.add('d-flex');
+        button5.classList.remove('button5-after')
+        button5.classList.add('button5-before')
+        error6.classList.add('d-none')
+        error6.classList.remove('d-flex')
     } else {
-        Step5.classList.remove('d-flex');
+        Step5.classList.remove('display');
         Step5.classList.add('d-none');
         Step6.classList.remove('d-none');
-        Step6.classList.add('d-flex');
+        Step6.classList.add('display');
+        button4.classList.add('button-after')
+        button4.classList.remove('button-before')
     }
 };
 
@@ -612,10 +649,12 @@ var backToStep4 = document.getElementById('back-to-page4')
 
 backToStep4.onclick = () =>{
 
-    Step5.classList.remove('d-flex')
+    Step5.classList.remove('display')
     Step5.classList.add('d-none')
     Step4.classList.remove('d-none')
-    Step4.classList.add('d-flex')
+    Step4.classList.add('display')
+    error4.classList.add('d-none')
+    error4.classList.remove('d-flex')
 
     
 
@@ -796,14 +835,14 @@ Step6box8.onclick = ()  =>{
 
 var finish = document.getElementById('finish')
 var error6 = document.getElementById('error6')
+var button6 = document.getElementById('button6')
 var backToStep5 = document.getElementById('back-to-page5')
 
 backToStep5.onclick = () =>{
-    
-    Step6.classList.remove('d-flex')
+    Step6.classList.remove('display')
     Step6.classList.add('d-none')
     Step5.classList.remove('d-none')
-    Step5.classList.add('d-flex')
+    Step5.classList.add('display')
 
 }
 
@@ -811,10 +850,14 @@ finish.onclick = () =>{
     if (!Step6box8criteria &&  !Step6box7criteria &&  !Step6box6criteria &&  !Step6box5criteria &&  !Step6box4criteria &&  !Step6box3criteria &&  !Step6box2criteria &&  !Step6box1criteria){
         error6.classList.remove('d-none')
         error6.classList.add('d-flex')
+        button6.classList.remove('button-after')
+        button6.classList.add('button-before')
     }
     else{
         error6.classList.add('d-none')
         error6.classList.remove('d-flex')
+        button6.classList.add('button-after')
+        button6.classList.remove('button-before')
     }
 }
 
