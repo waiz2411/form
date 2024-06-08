@@ -1,4 +1,10 @@
 
+body{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 @media (min-width: 1300px) and (max-device-width: 1499px) {
     #step1-row-2{
         margin-top: 1.5rem;
@@ -274,7 +280,62 @@
         position: relative;
         z-index: 2;
         color: white; /* Ensure the content is readable */
-      }
+    }
+    .page-1-header{
+        width: 100%;
+        height: 130px;
+        border-bottom: 1px solid white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .page-1-header-img {
+        height: 47px;
+        width: 282px;
+        margin-top: 40px;
+        border: 2px solid black;
+    }
+    .page-1-text{
+        padding-left: 300px;
+        color: white;
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+    .page-1-text1{
+        font-size: 45px;
+        width: 610px;
+    }
+    .page-1-text1-green{
+        color: #22AB00;
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    .page-1-text2{
+        font-size: 18px;
+        width: 550px;
+    }
+    .page-1-text3{
+        font-size: 18px;
+        width: 694px;
+    }
+    .page-1-text4{
+        font-size: 18px;
+        width: 694px;
+    }
+    .page-1-button{
+        margin-top: 50px;
+        width: 250px;
+        height: 65px;
+        font-size: 18px;
+        background-color: #22AB00;
+        color: white;
+        padding-top: 10px;
+    }
+
+
+
+
+    /* Form */
     #step1-row-2{
         margin-top: 1.5rem;
     }
