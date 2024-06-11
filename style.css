@@ -332,6 +332,80 @@ body{
         padding-top: 10px;
     }
 
+    /* page-2 */
+
+
+    .page-2{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-color: #FFFFFF;
+        padding-left: 280px;
+        display: flex;
+    }
+    .page-2-overlay {
+        position: absolute;
+        top: 18%;
+        left: 13%;
+        width: 524px;
+        height: 599px;
+
+        /* background-color: rgba(0, 0, 0, 0.5); Adjust color and opacity */
+        z-index: 1; /* Ensure the overlay is above other content */
+    }
+    .page-2-container{
+        margin-left: 28px;
+        margin-top: 40px;
+        width: 524px;
+        height: 599px;
+        border: 5px solid #22AB00;
+    }
+    .page-2-left{
+        padding-top: 210px;
+    }
+    .page-2-right{
+        padding-top: 138px;
+        margin-left: 90px;
+    }
+    .page-2-right h1{
+        width: 820px;
+    }
+    .page-2-text2{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-2-text3{
+        font-size: 22px;
+    }
+    .page-2-pair-1{
+        padding-top: 30px;
+        display: flex;
+    }
+    .pair-1-box1{
+        display: flex;
+    }
+    .pair-1-box2{
+        padding-left: 40px;
+        display: flex;
+    }
+    .pair-1-image{
+        width: 45px;    
+        height: 44px;
+    }
+    .pair-1-box1-text{
+        padding-left: 20px;
+    }
+    .pair-1-box1-texts{
+        padding-top: 8px;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 600;
+        opacity: 90%;
+    }
+    .heading-width{
+        width: 200px;
+        font-size: 24px;
+    }
 
 
 
