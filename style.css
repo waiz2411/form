@@ -307,7 +307,7 @@ body{
     }
     .page-1-text1-green{
         color: #22AB00;
-        font-size: 32px;
+        font-size: 22px;
         margin-top: 50px;
     }
     .page-1-text2{
@@ -323,7 +323,7 @@ body{
         width: 694px;
     }
     .page-1-button{
-        margin-top: 50px;
+        margin-top: 4.8px;
         width: 250px;
         height: 65px;
         font-size: 18px;
@@ -361,10 +361,10 @@ body{
         border: 5px solid #22AB00;
     }
     .page-2-left{
-        padding-top: 210px;
+        padding-top: 21vh;
     }
     .page-2-right{
-        padding-top: 138px;
+        padding-top: 13vh;
         margin-left: 90px;
     }
     .page-2-right h1{
