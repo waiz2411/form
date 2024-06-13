@@ -845,7 +845,7 @@ body{
         padding-top: 200px;
     }
     .page6-container1{
-        margin-left: 300px;
+        margin-left: 230px;
     }
     .page6-container2{
         margin-left: 100px;
@@ -887,6 +887,120 @@ body{
     .page-6-content-text2{
         font-size: 22px;
         width: 490px;
+    }
+
+    /* page-7 */
+    .page-7{
+        height: 100vh;
+        width: 100%;
+        background-color: #FFFFFF;
+        padding-left: 280px;
+        display: flex;
+    }
+    .page-7-left{
+        padding-top: 16vh;
+    }
+    .page-7-overlay {
+        position: absolute;
+        top: 17%;
+        right: 10%;
+        width: 524px;
+        height: 599px;
+
+        /* background-color: rgba(0, 0, 0, 0.5); Adjust color and opacity */
+        z-index: 1; /* Ensure the overlay is above other content */
+    }
+    .page-2-container{
+        margin-left: 28px;
+        margin-top: 40px;
+        width: 524px;
+        height: 599px;
+        border: 5px solid #22AB00;
+    }
+    .page-7-right{
+        position: relative;
+        padding-top: 20vh;
+        display: flex;
+        text-align: right;
+        justify-content: right;
+    }
+    .page-7-container{
+        margin-left: 180px;
+        margin-top: 40px;
+        width: 524px;
+        height: 599px;
+        border: 5px solid #22AB00;
+    }
+    .page-7-header{
+        font-size: 35px;
+        width: 610px;
+        font-weight: 600;
+        color: #4B4B4B;
+
+    }
+    .page-7-header2{
+        padding-top: 60px;
+        font-size: 35px;
+        width: 610px;
+        font-weight: 600;
+    }
+    .page-7-text{
+        width: 610px;
+    }
+
+    /* page-8 */
+
+    .page-8{
+        height: 1134px;
+        width: 100%;
+        background-color: #F6F6F6;
+        display: flex;
+        padding-top: 200px;
+    }
+    .page-8-left{
+        margin-left: 300px;
+        padding-top: 30px;
+    }
+    .page-8-right{
+        margin-left: 40px;
+    }
+    .page-8-greentext{
+        font-size: 35px;
+        font-weight: 600;
+        width: 623px;
+        color: #22AB00;
+    }
+    .page-8-text-1{
+        font-size: 22px;
+        width: 599px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .page-8-box{
+        margin-top: 30px;
+        width: 699px;
+        height: 366px;
+        display: flex;
+        background-color: #FFFFFF;
+        box-shadow: 25px 4px 58px -37px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 25px 4px 58px -37px rgba(0,0,0,0.75);
+        -moz-box-shadow: 25px 4px 58px -37px rgba(0,0,0,0.75);
+    }
+    .page-8-text-2{
+        font-size: 18px;
+        width: 280px;
+        font-weight: 400;
+    }
+    .comma{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .page-8-text-3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .page-8-box-text{
+        padding-left: 40px;
     }
 }
 
