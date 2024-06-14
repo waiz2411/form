@@ -303,7 +303,7 @@ body{
     }
     .page-1-text1{
         font-weight: 600;
-        font-size: 45px;
+        font-size: 35px;
         width: 610px;
         margin-bottom: 0.8rem;
     }
@@ -318,7 +318,7 @@ body{
         width: 550px;
     }
     .page-1-text3{
-        font-size: 18px;
+        font-size: 16px;
         width: 694px;
     }
     .page-1-text4{
@@ -418,7 +418,7 @@ body{
     .pair-1-box1-texts{
         padding-top: 8px;
         width: 240px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         opacity: 90%;
     }
@@ -426,7 +426,9 @@ body{
         width: 200px;
         font-size: 24px;
     }
-
+    .page-2-padding{
+        padding-top: 12px;
+    }
 
 
     /* Form */
@@ -456,17 +458,17 @@ body{
     }
     .left{
         width: 50%;
-        height: 100vh;
+        height: 110vh;
         background-color: #F4F4F4;
     }
     .right{
         width: 50%;
-        height: 100vh;
+        height: 110vh;
         background-color: #22AB00;
     }
     .form {
         position: relative;
-        top: 50vh;
+        top: 55vh;
         left: 50%;
         right: 50%;
         width: 1466px;
@@ -653,7 +655,7 @@ body{
         height: 634px;
         width: 100%;
         background-color: #22AB00;
-        margin-top: 350px;
+        margin-top: 370px;
         margin-bottom: 350px;
         color: #FFFFFF;
     }
@@ -833,17 +835,17 @@ body{
 
     .page-6-left{
         width: 50%;
-        height: 2533px;
+        height: 2500px;
         background-color: #22AB00;
         color: #FFFFFF;
-        padding-top: 200px;
+        padding-top: 170px;
     }
     .page-6-right{
         width: 50%;
-        height: 2533px;
+        height: 2500px;
         background-color: #141414;
         color: #FFFFFF;
-        padding-top: 200px;
+        padding-top: 170px;
     }
     .page6-container1{
         margin-left: 230px;
@@ -933,7 +935,7 @@ body{
         border: 5px solid #22AB00;
     }
     .page-7-header{
-        font-size: 35px;
+        font-size: 27px;
         width: 610px;
         font-weight: 600;
         color: #4B4B4B;
@@ -941,7 +943,7 @@ body{
     }
     .page-7-header2{
         padding-top: 60px;
-        font-size: 35px;
+        font-size: 27px;
         width: 610px;
         font-weight: 600;
     }
