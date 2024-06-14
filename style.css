@@ -354,7 +354,7 @@ body{
 
     .page-2{
         position: relative;
-        height: 100vh;
+
         width: 100%;
         background-color: #FFFFFF;
         padding-left: 280px;
@@ -381,6 +381,7 @@ body{
         padding-top: 21vh;
     }
     .page-2-right{
+        padding-bottom: 10vh;
         padding-top: 13vh;
         margin-left: 90px;
     }
@@ -1001,6 +1002,194 @@ body{
     }
     .page-8-box-text{
         padding-left: 40px;
+    }
+    /* page 9 */
+
+    .page-9-top-padding{
+        padding-top: 20px;
+    }
+    .page-9-top-padding2{
+        padding-top: 100px;
+    }
+    .page-9-right{
+        padding-top: 16vh;
+        margin-left: 90px;
+    }
+    .page-9-right h1{
+        font-weight: 600;
+        width: 820px;
+    }
+    .page-9-button{
+        margin-bottom: 150px;
+        font-size: 18px;
+        width: 243px;
+        height: 63px;
+        border: 6px solid #22AB00;
+        background-color: #FFFFFF;
+        color: black;
+        margin-top: 50px;
+    }
+    .page-9-button:hover{
+        font-size: 18px;
+        width: 243px;
+        height: 63px;
+        border: 6px solid #22AB00;
+        background-color: #22AB00;
+        color: white;
+        margin-top: 50px;
+    }
+    .page-9-overlay {
+        position: absolute;
+        top: 16%;
+        right: 61%;
+        width: 524px;
+        height: 599px;
+
+        /* background-color: rgba(0, 0, 0, 0.5); Adjust color and opacity */
+        z-index: 1; /* Ensure the overlay is above other content */
+    }
+
+
+    /* page-10 */
+    .page-10{
+        height: 412px;
+        width: 100%;
+        background-color: #141414;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .page-10-heading{
+        font-size: 60px;
+        color: #22AB00;
+        font-weight: 600;
+    }
+    .page-10-info{
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+    .page-10-text{
+        padding-top: 120px;
+    }
+
+    /* page-11 */
+
+
+    .page-11-header{
+        margin-top: 200px;
+        font-size: 40px;
+        width: 690px;
+        font-weight: 600;
+        margin-left: 303px;
+        text-align: center;
+    }
+    .page-11-info{
+        padding-top: 30px;
+        font-size: 18px;
+        width: 870px;
+        margin-left: 213px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .page-11-dropdowns{
+        width: 1200px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .page-11-dropdown1{
+        padding-left: 50px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        border-top: 2px solid #8B8B8B;
+        border-bottom: 2px solid #8B8B8B;
+    }
+    .page-11-dropdown2{
+        padding-left: 50px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        border-bottom: 2px solid #8B8B8B;
+    }
+    .page-11-dropdown3{
+        padding-left: 50px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        border-bottom: 2px solid #8B8B8B;
+    }
+    #before-dropdown1{
+        padding-left: 758px;
+    }
+    #before-dropdown2{
+        padding-left: 500px;
+    }
+    #before-dropdown3{
+        padding-left: 644px;
+    }
+    #after-dropdown1{
+        padding-left: 758px;
+    }
+    #after-dropdown2{
+        padding-left: 500px;
+    }
+    #after-dropdown3{
+        padding-left: 644px;
+    }
+    .page-11-after-dropdown{
+        padding-top: 40px;
+    }
+
+    /* page-12 */
+
+    .page-12{
+        height: 610px;
+        width: 100%;
+        background-color: #22AB00;
+        padding-top: 150px;
+    }
+    .page-12-header{
+        font-size: 50px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .page-12-button{
+        margin-top: 50px;
+        font-size: 18px;
+        width: 271px;
+        height: 71px;
+        border: 6px solid white;
+        color: #FFFFFF;
+        background-color: #22AB00;
+    }
+    .page-12-button:hover{
+        border: 6px solid #22AB00;
+        color: #FFFFFF;
+        background-color: #22AB00;
+    }
+
+    /* page-13 */
+
+    .page-13{
+        width: 100%;
+        height: 551px;
+        background-color: #141414;
+        padding-top: 90px;
+    }
+    .page-13-header-img {
+        width: 360px;
+        height: auto;
+    }
+    .page-13-text{
+        font-size: 18px;
+        width: 1000px;
+        color: #FFFFFF;
+        margin-left: 155px;
     }
 }
 

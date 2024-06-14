@@ -861,3 +861,86 @@ finish.onclick = () =>{
     }
 }
 
+
+
+
+// page-11
+var dropdown1 = document.getElementById('dropdown1')
+var dropdown2 = document.getElementById('dropdown2')
+var dropdown3 = document.getElementById('dropdown3')
+var beforeDropdown1 = document.getElementById('before-dropdown1')
+var beforeDropdown2 = document.getElementById('before-dropdown2')
+var beforeDropdown3 = document.getElementById('before-dropdown3')
+var afterDropdown1 = document.getElementById('after-dropdown1')
+var afterDropdown2 = document.getElementById('after-dropdown2')
+var afterDropdown3 = document.getElementById('after-dropdown3')
+var dropdownTextBefore1 = document.getElementById('page-11-dropdown-text-1')
+var dropdownTextBefore2 = document.getElementById('page-11-dropdown-text-2')
+var dropdownTextBefore3 = document.getElementById('page-11-dropdown-text-3')
+
+checkDropdown1 = false
+checkDropdown3 = false
+checkDropdown2 = false
+
+dropdown1.onclick = () =>{
+    if (!checkDropdown1){
+        beforeDropdown1.classList.add('d-none')
+        beforeDropdown1.classList.remove('d-flex')
+        afterDropdown1.classList.add('d-flex')
+        afterDropdown1.classList.remove('d-none')
+        dropdownTextBefore1.classList.remove('d-none')
+        dropdownTextBefore1.classList.add('page-11-after-dropdown')
+        checkDropdown1 = true
+    }
+    else{
+        beforeDropdown1.classList.add('d-flex')
+        beforeDropdown1.classList.remove('d-none')
+        afterDropdown1.classList.add('d-none')
+        afterDropdown1.classList.remove('d-flex')
+        dropdownTextBefore1.classList.remove('page-11-after-dropdown')
+        dropdownTextBefore1.classList.add('d-none')
+        checkDropdown1 = false
+    }
+}
+
+dropdown2.onclick = () =>{
+    if (!checkDropdown2){
+        beforeDropdown2.classList.add('d-none')
+        beforeDropdown2.classList.remove('d-flex')
+        afterDropdown2.classList.add('d-flex')
+        afterDropdown2.classList.remove('d-none')
+        dropdownTextBefore2.classList.remove('d-none')
+        dropdownTextBefore2.classList.add('page-11-after-dropdown')
+        checkDropdown2 = true
+    }
+    else{
+        beforeDropdown2.classList.add('d-flex')
+        beforeDropdown2.classList.remove('d-none')
+        afterDropdown2.classList.add('d-none')
+        afterDropdown2.classList.remove('d-flex')
+        dropdownTextBefore2.classList.remove('page-11-after-dropdown')
+        dropdownTextBefore2.classList.add('d-none')
+        checkDropdown2 = false
+    }
+}
+
+dropdown3.onclick = () =>{
+    if (!checkDropdown3){
+        beforeDropdown3.classList.add('d-none')
+        beforeDropdown3.classList.remove('d-flex')
+        afterDropdown3.classList.add('d-flex')
+        afterDropdown3.classList.remove('d-none')
+        dropdownTextBefore3.classList.remove('d-none')
+        dropdownTextBefore3.classList.add('page-11-after-dropdown')
+        checkDropdown3 = true
+    }
+    else{
+        beforeDropdown3.classList.add('d-flex')
+        beforeDropdown3.classList.remove('d-none')
+        afterDropdown3.classList.add('d-none')
+        afterDropdown3.classList.remove('d-flex')
+        dropdownTextBefore3.classList.remove('page-11-after-dropdown')
+        dropdownTextBefore3.classList.add('d-none')
+        checkDropdown3 = false
+    }
+}
