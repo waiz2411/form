@@ -944,3 +944,49 @@ dropdown3.onclick = () =>{
         checkDropdown3 = false
     }
 }
+
+
+// go to form
+
+document.getElementById('onclickButton1').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton2').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton3').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton4').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton5').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton6').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+
+document.getElementById('onclickButton7').addEventListener('click', function() {
+    document.getElementById('target').scrollIntoView({
+        behavior: 'smooth' // For smooth scrolling
+    });
+});
+

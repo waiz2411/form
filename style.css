@@ -323,7 +323,7 @@ body{
     }
     .page-1-text4{
         font-size: 18px;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         width: 694px;
     }
     .page-1-button{
@@ -336,6 +336,7 @@ body{
         color: white;
         padding-top: 10px;
         border: none;
+        font-weight: bold;
     }
     .page-1-button:hover{
         margin-top: 2.5vh;
@@ -347,7 +348,7 @@ body{
         color: #22AB00;
         padding-top: 10px;
         border: none;
-
+        font-weight: bold;
     }
 
     /* page-2 */
@@ -398,6 +399,7 @@ body{
     }
     .page-2-text3 h4{
         font-size: 20px;
+        color: #5a5a5a;
     }
     .page-2-pair-1{
         padding-top: 30px;
@@ -405,10 +407,12 @@ body{
     }
     .pair-1-box1{
         display: flex;
+        color: #5a5a5a;
     }
     .pair-1-box2{
         padding-left: 40px;
         display: flex;
+        color: #5a5a5a;
     }
     .pair-1-image{
         width: 45px;    
@@ -496,9 +500,11 @@ body{
     }
     .button-before{
         padding-top: 25px;
+        font-weight: bold;
     } 
     .button-after{
         padding-top: 95px;
+        font-weight: bold;
     } 
     .left-image{
         height: 165px;
@@ -657,7 +663,7 @@ body{
         height: 634px;
         width: 100%;
         background-color: #22AB00;
-        margin-top: 370px;
+        margin-top: 450px;
         margin-bottom: 350px;
         color: #FFFFFF;
     }
@@ -684,12 +690,14 @@ body{
         border: none;
         color: #22AB00;
         font-size: 18px;
+        font-weight: bold;
     }
 
     .page-4-section1-button:hover{
         background-color: #22AB00;
         border: 6px solid #FFFFFF;
         color: #FFFFFF;
+        font-weight: bold;
     }
     .page-4-section1-button2{
         margin-top: 35px;
@@ -699,12 +707,14 @@ body{
         border: none;
         color: #22AB00;
         font-size: 18px;
+        font-weight: bold;
     }
 
     .page-4-section1-button2:hover{
         background-color: #141414;
         border: 6px solid #FFFFFF;
         color: #FFFFFF;
+        font-weight: bold;
     }
     .page-4-section1{
         position: absolute;
@@ -825,10 +835,12 @@ body{
         border: none;
         font-size: 18px;
         color: #FFFFFF;
+        font-weight: bold;
     }
     .page-5text-button:hover{
         background: none;
         border: 6px solid white;
+        font-weight: bold;
     }
     .page-5text{
         padding-top: 184px;
@@ -953,6 +965,7 @@ body{
     .page-7-text h4{
         width: 610px;
         font-size: 22px;
+        color: #5a5a5a;
     }
 
     /* page-8 */
@@ -1012,10 +1025,12 @@ body{
     /* page 9 */
 
     .page-9-top-padding{
+        width: 610px;
         padding-top: 20px;
     }
     .page-9-top-padding2{
         padding-top: 100px;
+        width: 524px;
     }
     .page-9-right{
         padding-top: 16vh;
@@ -1035,6 +1050,7 @@ body{
         background-color: #FFFFFF;
         color: black;
         margin-top: 50px;
+        font-weight: bold;
     }
     .page-9-button:hover{
         font-size: 18px;
@@ -1044,6 +1060,7 @@ body{
         background-color: #22AB00;
         color: white;
         margin-top: 50px;
+        font-weight: bold;
     }
     .page-9-overlay {
         position: absolute;
@@ -1133,33 +1150,47 @@ body{
         border-bottom: 2px solid #8B8B8B;
         opacity: 0.7;
     }
+    .page-11-dropdown-text{
+        padding-top: 13px;
+        padding-bottom: 8px;
+    }
     #before-dropdown1{
         padding-left: 758px;
         opacity: 0.6;
+        padding-top: 12px;
     }
     #before-dropdown2{
         padding-left: 500px;
         opacity: 0.6;
+        padding-top: 12px;
     }
     #before-dropdown3{
         padding-left: 644px;
         opacity: 0.6;
+        padding-top: 12px;
     }
     #after-dropdown1{
         padding-left: 758px;
         opacity: 0.6;
+        font-size: 45px;
+        color: #8B8B8B;
     }
     #after-dropdown2{
         padding-left: 500px;
         opacity: 0.6;
+        font-size: 45px;
+        color: #8B8B8B;
     }
     #after-dropdown3{
         padding-left: 644px;
         opacity: 0.6;
+        font-size: 45px;
+        color: #8B8B8B;
     }
     .page-11-after-dropdown{
         padding-top: 40px;
-        opacity: 0.6;
+        color: #8B8B8B;
+        font-size: 25px;
     }
 
     /* page-12 */
