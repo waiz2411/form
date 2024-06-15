@@ -298,7 +298,7 @@ body{
     .page-1-text{
         padding-left: 300px;
         color: white;
-        margin-top: 140px;
+        margin-top: 100px;
         margin-bottom: 50px;
     }
     .page-1-text1{
@@ -400,6 +400,7 @@ body{
     .page-2-text3 h4{
         font-size: 20px;
         color: #5a5a5a;
+        font-weight: 400;
     }
     .page-2-pair-1{
         padding-top: 30px;
@@ -886,6 +887,9 @@ body{
     .page-6-box{
         padding-top: 50px;
     }
+    .page-6-box2{
+        padding-top: 0px;
+    }
     .page-6-img{
         padding-bottom: 135px;
         width: 62px;
@@ -966,6 +970,7 @@ body{
         width: 610px;
         font-size: 22px;
         color: #5a5a5a;
+        font-weight: 400
     }
 
     /* page-8 */
@@ -1026,11 +1031,14 @@ body{
 
     .page-9-top-padding{
         width: 610px;
-        padding-top: 20px;
+        padding-top: 30px;
     }
     .page-9-top-padding2{
-        padding-top: 100px;
+        padding-top: 80px;
         width: 524px;
+    }
+    .page-9-top-padding3{
+        width: 610px;
     }
     .page-9-right{
         padding-top: 16vh;
@@ -1191,6 +1199,7 @@ body{
         padding-top: 40px;
         color: #8B8B8B;
         font-size: 25px;
+        font-weight: 400;
     }
 
     /* page-12 */
@@ -1214,6 +1223,7 @@ body{
         border: 6px solid white;
         color: #FFFFFF;
         background-color: #22AB00;
+        font-weight: bold;
     }
     .page-12-button:hover{
         border: 6px solid #22AB00;
