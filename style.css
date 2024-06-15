@@ -298,7 +298,7 @@ body{
     .page-1-text{
         padding-left: 300px;
         color: white;
-        margin-top: 55px;
+        margin-top: 140px;
         margin-bottom: 50px;
     }
     .page-1-text1{
@@ -323,6 +323,7 @@ body{
     }
     .page-1-text4{
         font-size: 18px;
+        margin-bottom: 80px;
         width: 694px;
     }
     .page-1-button{
@@ -387,6 +388,7 @@ body{
     }
     .page-2-right h1{
         font-weight: 600;
+        font-size: 2.3rem;
         width: 820px;
     }
     .page-2-text2{
@@ -394,8 +396,8 @@ body{
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .page-2-text3{
-        font-size: 22px;
+    .page-2-text3 h4{
+        font-size: 20px;
     }
     .page-2-pair-1{
         padding-top: 30px;
@@ -662,7 +664,7 @@ body{
 
     .page-4-section1-content{
         padding-top: 100px;
-        margin-left: 360px;
+        margin-left: 300px;
         width: 640px;
     }
     .page-4-section1-h2{
@@ -710,6 +712,7 @@ body{
     .page-4-section1-overlay{
         position: relative;
         bottom: 105px;
+        left: 80px;
         text-align: end;
         width: 738;
         height: 842;
@@ -806,25 +809,26 @@ body{
     } */
     .page-5text-p{
         width: 1260px;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         color: #FFFFFF;
         opacity: 0.9;
         font-weight: 600;
+        margin-bottom: 0rem;
     }
     .page-5text-button{
         margin-top: 35px;
         width: 271px;
         height: 71px;
         opacity: 0.9;
-        background: none;
-        border: 6px solid white;
+        background-color: #22AB00;
+        border: none;
         font-size: 18px;
         color: #FFFFFF;
     }
     .page-5text-button:hover{
-        background-color: #22AB00;
-        border: none;
+        background: none;
+        border: 6px solid white;
     }
     .page-5text{
         padding-top: 184px;
@@ -934,21 +938,21 @@ body{
         height: 599px;
         border: 5px solid #22AB00;
     }
-    .page-7-header{
-        font-size: 27px;
+    .page-7-header h1{
+        font-size: 2.2rem;
         width: 610px;
         font-weight: 600;
         color: #4B4B4B;
-
     }
     .page-7-header2{
         padding-top: 60px;
-        font-size: 27px;
+        font-size: 24px;
         width: 610px;
         font-weight: 600;
     }
-    .page-7-text{
+    .page-7-text h4{
         width: 610px;
+        font-size: 22px;
     }
 
     /* page-8 */
@@ -1024,6 +1028,7 @@ body{
     .page-9-button{
         margin-bottom: 150px;
         font-size: 18px;
+        font-weight: 600;
         width: 243px;
         height: 63px;
         border: 6px solid #22AB00;
@@ -1080,7 +1085,7 @@ body{
 
     .page-11-header{
         margin-top: 200px;
-        font-size: 40px;
+        font-size: 35px;
         width: 690px;
         font-weight: 600;
         margin-left: 303px;
@@ -1108,6 +1113,7 @@ body{
         font-weight: 600;
         border-top: 2px solid #8B8B8B;
         border-bottom: 2px solid #8B8B8B;
+        opacity: 0.7;
     }
     .page-11-dropdown2{
         padding-left: 50px;
@@ -1116,6 +1122,7 @@ body{
         padding-bottom: 20px;
         font-weight: 600;
         border-bottom: 2px solid #8B8B8B;
+        opacity: 0.7;
     }
     .page-11-dropdown3{
         padding-left: 50px;
@@ -1124,27 +1131,35 @@ body{
         padding-bottom: 20px;
         font-weight: 600;
         border-bottom: 2px solid #8B8B8B;
+        opacity: 0.7;
     }
     #before-dropdown1{
         padding-left: 758px;
+        opacity: 0.6;
     }
     #before-dropdown2{
         padding-left: 500px;
+        opacity: 0.6;
     }
     #before-dropdown3{
         padding-left: 644px;
+        opacity: 0.6;
     }
     #after-dropdown1{
         padding-left: 758px;
+        opacity: 0.6;
     }
     #after-dropdown2{
         padding-left: 500px;
+        opacity: 0.6;
     }
     #after-dropdown3{
         padding-left: 644px;
+        opacity: 0.6;
     }
     .page-11-after-dropdown{
         padding-top: 40px;
+        opacity: 0.6;
     }
 
     /* page-12 */
