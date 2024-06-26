@@ -670,7 +670,7 @@ body{
     }
 
     .page-4-section1-content{
-        padding-top: 100px;
+        padding-top: 40px;
         margin-left: 300px;
         width: 640px;
     }
@@ -1961,6 +1961,7 @@ body{
         width: 100%;
         background-color: #FFFFFF;
         padding-left: 280px;
+        padding-top: 100px;
     }
 
     .page-7-overlay {
