@@ -24,7 +24,7 @@ body{
     }
     .bg{
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         display: flex;
     }
@@ -1269,8 +1269,7 @@ body{
 
 @media (min-width: 100px) and (max-device-width: 1000px)  {
     .page-1{
-        height: 120vh;
-        width: 100%;
+        width: 100vw;
         background-image: url(images/new-house-hand-3d-render-modern-home-ai-generated\ 1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1278,8 +1277,8 @@ body{
   
     }
     .page-1::before {
-        height: 120vh;
-        width: 100%;
+        height: 118%;
+        width: 100vw;
         content: '';
         position: absolute;
         top: 0;
@@ -1296,7 +1295,7 @@ body{
         color: white; /* Ensure the content is readable */
     }
     .page-1-header{
-        width: 100%;
+        width: 100vw;
         height: 130px;
         border-bottom: 1px solid white;
         display: flex;
@@ -1352,6 +1351,7 @@ body{
         padding-top: 10px;
         border: none;
         font-weight: bold;
+        margin-bottom: 50px;
     }
     .page-1-button:hover{
         background-color: #FFFFFF;
@@ -1365,7 +1365,7 @@ body{
         position: relative;
         background-color: #FFFFFF;
         padding-left: 280px;
-        width: 100%;
+        width: 100vw;
     }
     .page-2-left{
         padding-top: 7vh;
@@ -1452,7 +1452,7 @@ body{
     }
     .bg{
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         display: none;
     }
@@ -1697,7 +1697,7 @@ body{
 
     .page-4-section1{
         height: 533px;
-        width: 100%;
+        width: 100vw;
         background-color: #22AB00;
         margin-bottom: 350px;
         color: #FFFFFF;
@@ -1780,7 +1780,7 @@ body{
         background-position-y: 40px;
         width: 390px;
         height: 395px;
-        margin-left: 30px;
+        margin-left: 21px;
         margin-right: 30px;
         padding-top: 50px;
         padding-left: 50px;
@@ -1793,7 +1793,7 @@ body{
         background-position-y: 40px;
         width: 390px;
         height: 395px;
-        margin-left: 30px;
+        margin-left: 21px;
         margin-right: 30px;
         margin-top: 60px;
         padding-top: 50px;
@@ -1807,7 +1807,7 @@ body{
         background-position-y: 40px;
         width: 390px;
         height: 395px;
-        margin-left: 30px;
+        margin-left: 21px;
         margin-right: 30px;
         margin-top: 60px;
         padding-top: 50px;
@@ -1831,7 +1831,7 @@ body{
     .page-5-header {
         position: relative;
         margin-top: 1970px;
-        width: 100%;
+        width: 100vw;
         height: 357px;
         background: url('images/system-renewable-energy-concepts-as-wide-banner-with-copyspace-area\ 1.png');
         background-size: cover;
@@ -1844,13 +1844,13 @@ body{
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         background-color: rgba(44, 44, 44, 0.79); /* Grey shade with 50% opacity */
     }
     /* .page-5-header{
         margin-top: 1908px;
-        width: 100%;
+        width: 100vw;
         height: 634px;
         background-image: url(images/system-renewable-energy-concepts-as-wide-banner-with-copyspace-area\ 1.png);
         background-color: #2C2C2C;
@@ -1890,14 +1890,14 @@ body{
 
 
     .page-6-left{
-        width: 100%;
+        width: 100vw;
         background-color: #22AB00;
         color: #FFFFFF;
         padding-top: 40px;
         padding-bottom: 40px;
     }
     .page-6-right{
-        width: 100%;
+        width: 100vw;
         padding-bottom: 40px;
         background-color: #141414;
         color: #FFFFFF;
@@ -1963,7 +1963,7 @@ body{
     /* page-7 */
     .page-7{
         height: 68vh;
-        width: 100%;
+        width: 100vw;
         background-color: #FFFFFF;
         padding-left: 280px;
         padding-top: 45px;
@@ -2012,7 +2012,7 @@ body{
 
     .page-8{
         height: 1134px;
-        width: 100%;
+        width: 100vw;
         background-color: #F6F6F6;
     }
     .page-8-left{
@@ -2123,7 +2123,7 @@ body{
     /* page-10 */
     .page-10{
         height: 412px;
-        width: 100%;
+        width: 100vw;
         background-color: #141414;
         display: flex;
         justify-content: center;
@@ -2243,7 +2243,7 @@ body{
 
     .page-12{
         height: 335px;
-        width: 100%;
+        width: 100vw;
         background-color: #22AB00;
         padding-top: 50px;
     }
@@ -2271,7 +2271,7 @@ body{
     /* page-13 */
 
     .page-13{
-        width: 100%;
+        width: 100vw;
         height: 650px;
         padding-bottom: 75px;
         background-color: #141414;
