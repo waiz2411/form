@@ -1509,10 +1509,9 @@ body{
     .left-side{
         color: #FFFFFF;
         background-color: #22AB00;
+        padding-bottom: 30px;
     }
-    .left-1{
-        height: 58vh; 
-    }
+
     .left-2{
         height: 61vh; 
     }
@@ -1580,7 +1579,7 @@ body{
         padding-left: 12px;
         padding-right: 12px;
 
-        width: 200px;
+        width: 40vw;
         height: 203px;
         margin-top: 1.5rem;
         background-color: #F4F4F4;
@@ -1619,7 +1618,7 @@ body{
         background-color: #E0EADE;
         padding-left: 12px;
         padding-right: 12px;
-        width: 200px;
+        width: 40vw;
         height: 203px;
         margin-top: 1.5rem;
         /* margin-left: 26px; */
@@ -1844,7 +1843,7 @@ body{
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 100lvw;
         height: 100%;
         background-color: rgba(44, 44, 44, 0.79); /* Grey shade with 50% opacity */
     }
