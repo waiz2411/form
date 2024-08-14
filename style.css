@@ -40,7 +40,7 @@ body{
     .right{
         width: 50%;
         height: 100vh;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
     .form {
         position: fixed;
@@ -86,7 +86,7 @@ body{
         color: #FFFFFF;
         height: 100%;
         width: 30%;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
     .left-image{
         height: 100px;
@@ -99,7 +99,7 @@ body{
         font-size: 20px;
     }
     .custom-circle-1{
-        background-color: #22AB00;
+        background-color: #19381F;
         width: 28px;
         height: 28px;
         color: #F4F4F4;
@@ -111,8 +111,8 @@ body{
         background-color: #F4F4F4;
         width: 28px;
         height: 28px;
-        border: 0.5px solid #22AB00;
-        color: #22AB00;
+        border: 0.5px solid #19381F;
+        color: #19381F;
     }
     .custom-numbers{
         padding-top: 3px;
@@ -129,7 +129,7 @@ body{
         margin-top: 29px;
         height: 1px;
         width: 80px;
-        background-color: black;
+        background-color: #1E1E1E;
     }
     .boxes{
         width: 145px;
@@ -155,7 +155,7 @@ body{
         font-size: 18px;
     }
     .form-button{
-        background-color: #22AB00;
+        background-color: #19381F;
         border-radius: 15px;
     }
     .boxes-before-hover :hover{
@@ -295,7 +295,7 @@ body{
         height: 47px;
         width: 282px;
         margin-top: 40px;
-        border: 2px solid black;
+        border: 2px solid #1E1E1E;
     }
     .page-1-text{
         padding-left: 300px;
@@ -310,7 +310,7 @@ body{
         margin-bottom: 0.8rem;
     }
     .page-1-text1-green{
-        color: #22AB00;
+        color: #19381F;
         font-size: 22px;
         font-weight: 600;
         margin-top: 40px;
@@ -334,7 +334,7 @@ body{
         height: 65px;
         font-size: 18px;
         font-weight: 600;
-        background-color: #22AB00;
+        background-color: #19381F;
         color: white;
         padding-top: 10px;
         border: none;
@@ -347,7 +347,7 @@ body{
         font-size: 18px;
         font-weight: 600;
         background-color: #FFFFFF;
-        color: #22AB00;
+        color: #19381F;
         padding-top: 10px;
         border: none;
         font-weight: bold;
@@ -379,7 +379,7 @@ body{
         margin-top: 40px;
         width: 524px;
         height: 599px;
-        border: 5px solid #22AB00;
+        border: 5px solid #19381F;
     }
     .page-2-left{
         padding-top: 21vh;
@@ -473,7 +473,7 @@ body{
     .right{
         width: 50%;
         height: 110vh;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
     .form {
         position: relative;
@@ -493,7 +493,7 @@ body{
         color: #FFFFFF;
         height: 90vh; 
         width: 27%;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
     .right-side{
         padding-top: 3rem;
@@ -523,7 +523,7 @@ body{
         display: flex;
     }
     .custom-circle-1{
-        background-color: #22AB00;
+        background-color: #19381F;
         width: 38px; 
         height: 38px;
         color: #F4F4F4;
@@ -532,8 +532,8 @@ body{
         background-color: #F4F4F4;
         width: 38px;
         height: 38px;
-        border: 0.5px solid #22AB00;
-        color: #22AB00;
+        border: 0.5px solid #19381F;
+        color: #19381F;
     }
     .custom-numbers{
         padding-top: 5px;
@@ -546,7 +546,7 @@ body{
         margin-top: 17px;
         height: 1px;
         width: 117px;
-        background-color: black;
+        background-color: #1E1E1E;
     }
     .boxes{
         width: 207px;
@@ -575,7 +575,7 @@ body{
         font-size: 25px;
     }
     .form-button{
-        background-color: #22AB00;
+        background-color: #19381F;
         border-radius: 15px;
     }
     .boxes-before-hover :hover{
@@ -665,7 +665,7 @@ body{
     .page-4-section1{
         height: 634px;
         width: 100%;
-        background-color: #22AB00;
+        background-color: #19381F;
         margin-top: 450px;
         margin-bottom: 350px;
         color: #FFFFFF;
@@ -691,13 +691,13 @@ body{
         height: 63px;
         background-color: #FFFFFF;
         border: none;
-        color: #22AB00;
+        color: #19381F;
         font-size: 18px;
         font-weight: bold;
     }
 
     .page-4-section1-button:hover{
-        background-color: #22AB00;
+        background-color: #19381F;
         border: 6px solid #FFFFFF;
         color: #FFFFFF;
         font-weight: bold;
@@ -708,7 +708,7 @@ body{
         height: 63px;
         background-color: #FFFFFF;
         border: none;
-        color: #22AB00;
+        color: #19381F;
         font-size: 18px;
         font-weight: bold;
     }
@@ -834,7 +834,7 @@ body{
         width: 271px;
         height: 71px;
         opacity: 0.9;
-        background-color: #22AB00;
+        background-color: #19381F;
         border: none;
         font-size: 18px;
         color: #FFFFFF;
@@ -857,7 +857,7 @@ body{
     .page-6-left{
         width: 50%;
         height: 2500px;
-        background-color: #22AB00;
+        background-color: #19381F;
         color: #FFFFFF;
         padding-top: 170px;
     }
@@ -941,7 +941,7 @@ body{
         margin-top: 40px;
         width: 524px;
         height: 599px;
-        border: 5px solid #22AB00;
+        border: 5px solid #19381F;
     }
     .page-7-right{
         position: relative;
@@ -955,7 +955,7 @@ body{
         margin-top: 40px;
         width: 524px;
         height: 599px;
-        border: 5px solid #22AB00;
+        border: 5px solid #19381F;
     }
     .page-7-header h1{
         font-size: 2.2rem;
@@ -996,7 +996,7 @@ body{
         font-size: 35px;
         font-weight: 600;
         width: 623px;
-        color: #22AB00;
+        color: #19381F;
     }
     .page-8-text-1{
         font-size: 22px;
@@ -1057,9 +1057,9 @@ body{
         font-weight: 600;
         width: 243px;
         height: 63px;
-        border: 6px solid #22AB00;
+        border: 6px solid #19381F;
         background-color: #FFFFFF;
-        color: black;
+        color: #1E1E1E;
         margin-top: 50px;
         font-weight: bold;
     }
@@ -1067,8 +1067,8 @@ body{
         font-size: 18px;
         width: 243px;
         height: 63px;
-        border: 6px solid #22AB00;
-        background-color: #22AB00;
+        border: 6px solid #19381F;
+        background-color: #19381F;
         color: white;
         margin-top: 50px;
         font-weight: bold;
@@ -1096,7 +1096,7 @@ body{
     }
     .page-10-heading{
         font-size: 60px;
-        color: #22AB00;
+        color: #19381F;
         font-weight: 600;
     }
     .page-10-info{
@@ -1210,7 +1210,7 @@ body{
     .page-12{
         height: 610px;
         width: 100%;
-        background-color: #22AB00;
+        background-color: #19381F;
         padding-top: 150px;
     }
     .page-12-header{
@@ -1225,13 +1225,13 @@ body{
         height: 71px;
         border: 6px solid white;
         color: #FFFFFF;
-        background-color: #22AB00;
+        background-color: #19381F;
         font-weight: bold;
     }
     .page-12-button:hover{
-        border: 6px solid #22AB00;
+        border: 6px solid #19381F;
         color: #FFFFFF;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
 
     /* page-13 */
@@ -1307,7 +1307,7 @@ body{
         height: 65px;
         width: 282px;
         margin-top: 35px;
-        border: 2px solid black;
+        border: 2px solid #1E1E1E;
     }
     .page-1-text{
         padding-left: 34px;
@@ -1322,7 +1322,7 @@ body{
         margin-bottom: 0.8rem;
     }
     .page-1-text1-green{
-        color: #22AB00;
+        color: #19381F;
         font-size: 22px;
         font-weight: 600;
         margin-top: 40px;
@@ -1347,7 +1347,7 @@ body{
         height: 65px;
         font-size: 18px;
         font-weight: 600;
-        background-color: #22AB00;
+        background-color: #19381F;
         color: white;
         padding-top: 10px;
         border: none;
@@ -1356,7 +1356,7 @@ body{
     }
     .page-1-button:hover{
         background-color: #FFFFFF;
-        color: #22AB00;
+        color: #19381F;
     }
 
     /* page-2 */
@@ -1392,7 +1392,7 @@ body{
         margin-top: 40px;
         width: 346px !important;
         height: 439px !important;
-        border: 5px solid #22AB00;
+        border: 5px solid #19381F;
     }
 
     .page-2-right h1{
@@ -1465,7 +1465,7 @@ body{
     .right{
         width: 50%;
         height: 360%;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
     .mobile-flex{
         display: flex;
@@ -1506,7 +1506,7 @@ body{
     }
     .left-side{
         color: #FFFFFF;
-        background-color: #22AB00;
+        background-color: #19381F;
         padding-bottom: 30px;
     }
 
@@ -1548,7 +1548,7 @@ body{
         display: none;
     }
     .custom-circle-1{
-        background-color: #22AB00;
+        background-color: #19381F;
         width: 38px; 
         height: 38px;
         color: #F4F4F4;
@@ -1557,8 +1557,8 @@ body{
         background-color: #F4F4F4;
         width: 38px;
         height: 38px;
-        border: 0.5px solid #22AB00;
-        color: #22AB00;
+        border: 0.5px solid #19381F;
+        color: #19381F;
     }
     .custom-numbers{
         padding-top: 5px;
@@ -1571,7 +1571,7 @@ body{
         margin-top: 17px;
         height: 1px;
         width: 117px;
-        background-color: black;
+        background-color: #1E1E1E;
     }
     .boxes{
         padding-left: 12px;
@@ -1601,7 +1601,7 @@ body{
         font-size: 25px;
     }
     .form-button{
-        background-color: #22AB00;
+        background-color: #19381F;
         border-radius: 15px;
     }
     .boxes-before-hover :hover{
@@ -1695,7 +1695,7 @@ body{
     .page-4-section1{
         height: 533px;
         width: 100vw;
-        background-color: #22AB00;
+        background-color: #19381F;
         margin-bottom: 350px;
         color: #FFFFFF;
     }
@@ -1724,14 +1724,14 @@ body{
         height: 50px;
         background-color: #FFFFFF;
         border: none;
-        color: #22AB00;
+        color: #19381F;
         font-size: 18px;
         font-weight: bold;
         margin-left: 80px;
     }
 
     .page-4-section1-button:hover{
-        background-color: #22AB00;
+        background-color: #19381F;
         border: 6px solid #FFFFFF;
         color: #FFFFFF;
         font-weight: bold;
@@ -1742,7 +1742,7 @@ body{
         height: 63px;
         background-color: #FFFFFF;
         border: none;
-        color: #22AB00;
+        color: #19381F;
         font-size: 18px;
         font-weight: bold;
     }
@@ -1865,7 +1865,7 @@ body{
         width: 226px;
         height: 60px;
         opacity: 0.9;
-        background-color: #22AB00;
+        background-color: #19381F;
         border: none;
         font-size: 18px;
         color: #FFFFFF;
@@ -1886,7 +1886,7 @@ body{
 
     .page-6-left{
         width: 100vw;
-        background-color: #22AB00;
+        background-color: #19381F;
         color: #FFFFFF;
         padding-top: 40px;
         padding-bottom: 40px;
@@ -1972,7 +1972,7 @@ body{
         margin-top: 40px;
         width: 524px;
         height: 599px;
-        border: 5px solid #22AB00;
+        border: 5px solid #19381F;
     }
     .page-7-right{
         position: relative;
@@ -2021,7 +2021,7 @@ body{
         font-size: 24px;
         font-weight: 600;
         width: 390px;
-        color: #22AB00;
+        color: #19381F;
     }
     .page-8-text-1{
         font-size: 18px;
@@ -2085,9 +2085,9 @@ body{
         font-weight: 600;
         width: 243px;
         height: 63px;
-        border: 6px solid #22AB00;
+        border: 6px solid #19381F;
         background-color: #FFFFFF;
-        color: black;
+        color: #1E1E1E;
         margin-top: 30px;
         font-weight: bold;
     }
@@ -2095,8 +2095,8 @@ body{
         font-size: 18px;
         width: 243px;
         height: 63px;
-        border: 6px solid #22AB00;
-        background-color: #22AB00;
+        border: 6px solid #19381F;
+        background-color: #19381F;
         color: white;
         margin-top: 30px;
         font-weight: bold;
@@ -2127,7 +2127,7 @@ body{
     }
     .page-10-heading{
         font-size: 45px;
-        color: #22AB00;
+        color: #19381F;
         font-weight: 600;
     }
     .page-10-info{
@@ -2239,7 +2239,7 @@ body{
     .page-12{
         height: 335px;
         width: 100vw;
-        background-color: #22AB00;
+        background-color: #19381F;
         padding-top: 50px;
     }
     .page-12-header{
@@ -2254,13 +2254,13 @@ body{
         height: 71px;
         border: 6px solid white;
         color: #FFFFFF;
-        background-color: #22AB00;
+        background-color: #19381F;
         font-weight: bold;
     }
     .page-12-button:hover{
-        border: 6px solid #22AB00;
+        border: 6px solid #19381F;
         color: #FFFFFF;
-        background-color: #22AB00;
+        background-color: #19381F;
     }
 
     /* page-13 */
